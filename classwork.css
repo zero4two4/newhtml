@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body {
+  height: 500vh;
+} */
+main {
+  margin: 70px 0 0 0;
+}
+header {
+  position: fixed;
+  color: floralwhite;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  /* position: relative; */
+  margin-bottom: 40px;
+  width: 100%;
+  top: 0;
+}
+header h1 {
+  margin-left: 40px;
+}
+nav {
+  margin-left: -250px;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+ul li {
+  margin-left: 30px;
+}
+ul li a {
+  color: floralwhite;
+  text-decoration: none;
+}
+.link1 a {
+  color: floralwhite;
+  background-color: orange;
+  position: absolute;
+  right: 0;
+  height: 100%;
+  top: 0;
+  display: flex;
+  align-items: center;
+  padding: 0 20px 0 20px;
+  text-decoration: none;
+}
+.container {
+  width: 70%;
+  margin: auto;
+}
+.container .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 50px 0;
+}
+.title h1 {
+  width: 520px;
+  text-align: center;
+  line-height: 1.62;
+}
+.box {
+  height: 10px;
+  width: 150px;
+  background-color: aqua;
+  margin: 30px 0 30px 0;
+}
+.money {
+  height: 100%;
+  margin: 0 0 50px 0;
+}
+.money img {
+  width: 100%;
+}
+section.paragraph {
+  line-height: 1.9;
+}
+.paragraph h5 {
+  font-size: large;
+}
+.related h1 {
+  text-align: center;
+  margin: 50px 0 50px 0;
+}
+section.relatedimage {
+  height: 100%;
+}
+.relate {
+  width: 300px;
+}
+section .relatedimages {
+  background-image: url(/moneyimage.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.relatedimagetext {
+  height: 30px;
+  width: 50px;
+  color: floralwhite;
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.relatetext {
+  height: 150px;
+  border: 1px solid grey;
+  font-size: large;
+}
+.relatetext a {
+  text-decoration: none;
+  color: aqua;
+}
+.relatedimagetext2 {
+  background-color: white;
+  height: 30px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo1 small {
+  margin-top: 50px;
+  background-color: aqua;
+  font-size: 10px;
+  color: floralwhite;
+  height: 30px;
+  border-radius: 100%;
+  width: 30px;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.logo1 {
+  display: flex;
+  justify-content: start;
+  align-items: end;
+}
+.form_sub {
+  background-color: aqua;
+}
+
+.form_sub .container,
+.site_core .container {
+  display: flex;
+  padding: 100px 0 100px 0;
+}
+.form_sub button {
+  border: solid;
+  background-color: aqua;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  cursor: pointer;
+  width: 500px;
+  height: 50px;
+}
+input[type='email'],
+input[type='text'] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.names {
+  display: flex;
+}
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.form_input {
+  width: 50%;
+}
+.form_text {
+  padding-left: 80px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.form_text h1 {
+  font-size: 40px;
+  padding-bottom: 30px;
+  padding-top: -30px;
+  color: floralwhite;
+}
+.form_text p {
+  line-height: 1.2em;
+  font-size: 17px;
+}
+.site_core {
+  background-color: gray;
+}
+.site_core .container span {
+  background-color: aqua;
+  color: white;
+  font-size: medium;
+  padding: 5px;
+}
+.site_core .container h3 {
+  color: floralwhite;
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.site_core .container div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.contactus {
+  background-color: lightgrey;
+}
+.contact_title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.sub_title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.contactus_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.contactus_form .contactus_form_text {
+  width: 50%;
+}
+.contactus_form .contactus_form_message {
+  width: 50%;
+}
+textarea {
+  width: 100%;
+}
+.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.contactus button{
+  background-color: aqua;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+  width: 500px;
+  height: 50px;
+  margin: 50px 0 0 0;
+}
+.checkboxbutton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer{
+  background-color: gray;
+  text-align: center;
+  padding: 40px 0 40px 0;
+}
